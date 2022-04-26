@@ -9,6 +9,7 @@
 
 .anchor {
   visibility: hidden;
+  padding-left: 0.5rem;
 }
 
 h1:hover a,
@@ -23,29 +24,13 @@ h4:hover a {
   margin-top: 2.25rem;
 }
 
-.page-footer-meta {
+.edit-page {
   margin-top: 3rem;
+  font-size: $font-size-base;
 }
 
-.edit-page,
-.last-modified {
-  font-size: $font-size-sm;
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
-@include media-breakpoint-up(md) {
-  .edit-page,
-  .last-modified {
-    font-size: $font-size-base;
-    margin-top: 0.75rem;
-    margin-bottom: 0.25rem;
-  }
-}
-
-.edit-page svg,
-.last-modified svg {
-  margin-right: 0.25rem;
+.edit-page svg {
+  margin-right: 0.5rem;
   margin-bottom: 0.25rem;
 }
 
@@ -57,8 +42,4 @@ p.meta {
 .breadcrumb {
   margin-top: 2.25rem;
   font-size: $font-size-base;
-}
-
-.page-link:hover {
-  text-decoration: none;
 }

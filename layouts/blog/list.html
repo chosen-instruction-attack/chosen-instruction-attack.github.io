@@ -5,8 +5,7 @@
       <h1 class="text-center">{{ .Title }}</h1>
       <div class="text-center">{{ .Content }}</div>
 			<div class="card-list">
-				{{ $paginator := .Paginate (.Data.Pages) -}}
-				{{ range $paginator.Pages -}}
+				{{ range .Data.Pages -}}
 					<div class="card">
 						<div class="card-body">
 							<h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
@@ -15,8 +14,6 @@
 						</div>
 					</div>
 				{{ end -}}
-				{{ $.Scratch.Set "paginator" true }}
-				{{ template "_internal/pagination.html" . }}
 			</div>
     </article>
   </div>
