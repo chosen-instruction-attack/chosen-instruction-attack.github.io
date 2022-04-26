@@ -15,7 +15,7 @@ toc: true
 
 ## How to use anchor instructions
 
-For example, you can writing the following function.
+For example, you can use the following function in C files.
 ```c
 void KnowledgeLeaking(){
 	VIRTUALIZER_START // The macro provided by obfuscators. e.g., VMProtectBegin("").

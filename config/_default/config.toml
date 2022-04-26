@@ -1,4 +1,4 @@
-baseurl = "https://chosen-instruction-attack.github.io"
+baseurl = "/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
