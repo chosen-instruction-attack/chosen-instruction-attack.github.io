@@ -1,2 +1,2 @@
 canonifyURLs = false
-baseURL = https://github.com/chosen-instruction-attack/chosen-instruction-attack.github.io.git
+baseURL = "https://chosen-instruction-attack.github.io"
