@@ -1,2 +1,2 @@
-canonifyURLs = false
+canonifyURLs = true
 baseURL = "https://chosen-instruction-attack.github.io"

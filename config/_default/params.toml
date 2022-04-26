@@ -12,8 +12,8 @@ description = "Aganist commercial code virtualization obfuscator"
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "chosen-instruction-attack.github.io"
+titleHome = "Chosen-Instruction Attack"
 
 ## Twitter Cards
 # twitterSite = "@getdoks"
@@ -22,7 +22,7 @@ titleHome = "Doks Theme"
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
+schemaName = "Chosen-Instruction Attack"
 schemaAuthor = "Chosen-Instruction Attack"
 # schemaAuthorTwitter = "https://twitter.com/henkverlinde"
 # schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
@@ -57,7 +57,7 @@ smallLimit = "300"
 footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Chosen-Instruction Attack"
+copyRight = "Copyright (c) 2020-2022 Chosen-Instruction Attack"
 
 # Alert
 alert = false
