@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chosen-instruction-attack.github.io/sitemap.xml
